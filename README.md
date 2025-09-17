@@ -40,7 +40,7 @@ It fetches data from the **OpenWeatherMap API** and adjusts automatically to cit
 | GPIO 22   | SCL     |
 
 *(Default ESP32 I²C pins are GPIO21 for SDA & GPIO22 for SCL)*
-![image alt](images/weathersync-circuit.jpg)
+![image alt](images/weathersync-circuit.png)
 
 ---
 
@@ -68,13 +68,6 @@ Make sure to install these Arduino libraries via **Library Manager**:
 
 ---
 
-## 📸 Demo
-
-*(Add your project image / wiring diagram / video link here)*
-Example:
-
-
----
 
 ## 🚀 Getting Started
 
@@ -103,11 +96,11 @@ Example:
 
 ## 📌 Example
 ```
-`City       14:25`
-`27.5°C 85% Clear`
+`Kalyani    07:09`
+`28.0°C 83% Cloud`
 ```
 
-![image alt](images/weathersync_demo2.jpg)
+![image alt](images/weathersync_demo3.jpg)
 
 ---
 
