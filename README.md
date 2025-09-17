@@ -2,7 +2,7 @@
 ![ESP32 Supported](https://img.shields.io/badge/ESP32-Supported-blue?logo=espressif)
 ![Made with C++](https://img.shields.io/badge/Made%20with-C++-orange?logo=cplusplus)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-# ESP32 NTP IST Clock # 🌦️ WeatherSync – Real-Time Weather & Clock on 16x2 LCD (ESP32)
+# 🌦️ WeatherSync – Real-Time Weather & Clock on 16x2 LCD (ESP32)
 
 WeatherSync is an **IoT project** that displays **live weather conditions and local time** on a 16x2 I²C LCD using an **ESP32**.
 It fetches data from the **OpenWeatherMap API** and adjusts automatically to city-based overrides via the Serial Monitor.
