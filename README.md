@@ -115,6 +115,6 @@ This project is open-source under the **MIT License** – free to use and modify
 
 💼 [LinkedIn](link)
 
-🐙 [GitHub](Link)
+🐙 [GitHub](https://github.com/Agnick-G-15/weathersync-esp-lcd)
 
 
