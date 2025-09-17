@@ -14,7 +14,7 @@ String apiKey       = "Your API Key";     // OpenWeatherMap API Key
 String defaultCity  = "Default city";     // Your Hometown or preferred location as default
 String currentCity  = defaultCity;
 
-const long gmtOffset_sec     = 19800; // 🔹 Default: IST (UTC+5:30) → 5*3600 + 30*60
+const long gmtOffset_sec     = 19800;     //  Default: IST (UTC+5:30) → 5*3600 + 30*60
 const int daylightOffset_sec = 0;
 
 bool blinkColon   = true;  // Toggle colon for clock blinking effect
@@ -23,14 +23,14 @@ int cityTimeOffset = 0;    // Offset (in seconds) from API
 // ================== OBJECTS ==================
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // LCD @ I2C address (0x27 or 0x3F)
 WiFiUDP ntpUDP;
-NTPClient timeClient(ntpUDP, "pool.ntp.org", 0, 60000); // Sync every 60s
+NTPClient timeClient(ntpUDP, "pool.ntp.org", 0, 60000);  // Sync every 60s
 
 unsigned long lastOverrideTime = 0;  // Track city override timer
 bool overrideActive = false;         // Flag for city override state
 
 // ================== FUNCTIONS ==================
 
-// 🔹 Connect to WiFi and show status on LCD
+// Connect to WiFi and show status on LCD
 void connectWiFi() {
   lcd.clear();
   lcd.setCursor(0, 0);
@@ -45,7 +45,7 @@ void connectWiFi() {
     lcd.print(".");
   }
 
-  // Show success message
+  // Success message
   lcd.clear();
   lcd.setCursor(0, 0);
   lcd.print("WiFi Connected!");
@@ -53,7 +53,7 @@ void connectWiFi() {
   lcd.clear();
 }
 
-// 🔹 Fetch weather data from OpenWeatherMap
+// Fetch weather data from OpenWeatherMap
 String getWeather(String city) {
   if (WiFi.status() == WL_CONNECTED) {
     HTTPClient http;
@@ -89,7 +89,7 @@ String getWeather(String city) {
   return "WiFi Error";
 }
 
-// 🔹 Display city, time, and weather on LCD
+// Display city, time, and weather on LCD
 void displayWeather(String city) {
   timeClient.update();
 
