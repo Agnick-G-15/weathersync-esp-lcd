@@ -1,7 +1,13 @@
-# 🌦️ WeatherSync – Real-Time Weather & Clock on 16x2 LCD (ESP32)
+![Topic: OpenWeatherMap API](https://img.shields.io/badge/OpenWeatherMap%20API-blue?style=flat-square)
+![ESP32 Supported](https://img.shields.io/badge/ESP32-Supported-blue?logo=espressif)
+![Made with C++](https://img.shields.io/badge/Made%20with-C++-orange?logo=cplusplus)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
+# ESP32 NTP IST Clock # 🌦️ WeatherSync – Real-Time Weather & Clock on 16x2 LCD (ESP32)
 
 WeatherSync is an **IoT project** that displays **live weather conditions and local time** on a 16x2 I²C LCD using an **ESP32**.
 It fetches data from the **OpenWeatherMap API** and adjusts automatically to city-based overrides via the Serial Monitor.
+
+![image alt](Assets/weathersync_demo1.jpg)
 
 ---
 
@@ -34,9 +40,8 @@ It fetches data from the **OpenWeatherMap API** and adjusts automatically to cit
 | GPIO 22   | SCL     |
 
 *(Default ESP32 I²C pins are GPIO21 for SDA & GPIO22 for SCL)*
-```markdown
-![WeatherSync Demo](Assets/weathersync_circuit.jpg)
-```
+![image alt](Assets/weathersync_circuit.jpg)
+
 ---
 
 ## 📦 Libraries Used
@@ -68,9 +73,6 @@ Make sure to install these Arduino libraries via **Library Manager**:
 *(Add your project image / wiring diagram / video link here)*
 Example:
 
-```markdown
-![WeatherSync Demo](Assets/weathersync_demo.jpg)
-```
 
 ---
 
@@ -104,6 +106,9 @@ Example:
 `City       14:25`
 `27.5°C 85% Clear`
 ```
+
+![image alt](Assets/weathersync_demo2.jpg)
+
 ---
 
 ## 📜 License
