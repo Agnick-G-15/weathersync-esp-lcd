@@ -40,6 +40,7 @@ It fetches data from the **OpenWeatherMap API** and adjusts automatically to cit
 | GPIO 22   | SCL     |
 
 *(Default ESP32 I²C pins are GPIO21 for SDA & GPIO22 for SCL)*
+
 ![image alt](images/weathersync-circuit.png)
 
 ---
