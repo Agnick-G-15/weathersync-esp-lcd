@@ -7,7 +7,7 @@
 WeatherSync is an **IoT project** that displays **live weather conditions and local time** on a 16x2 I²C LCD using an **ESP32**.
 It fetches data from the **OpenWeatherMap API** and adjusts automatically to city-based overrides via the Serial Monitor.
 
-![image alt](Assets/weathersync_demo1.jpg)
+![image alt](images/weathersync_demo1.jpg)
 
 ---
 
@@ -40,7 +40,7 @@ It fetches data from the **OpenWeatherMap API** and adjusts automatically to cit
 | GPIO 22   | SCL     |
 
 *(Default ESP32 I²C pins are GPIO21 for SDA & GPIO22 for SCL)*
-![image alt](Assets/weathersync_circuit.jpg)
+![image alt](images/weathersync-circuit.jpg)
 
 ---
 
@@ -107,7 +107,7 @@ Example:
 `27.5°C 85% Clear`
 ```
 
-![image alt](Assets/weathersync_demo2.jpg)
+![image alt](images/weathersync_demo2.jpg)
 
 ---
 
